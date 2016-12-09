@@ -1,0 +1,38 @@
+1.Why Map-reduce program is needed in Pig Programming?
+A. When we want to develop UDFs, MAP-REDUCE program (or) MAP-REDUCE knowledge is required
+   Ultimately, all Pig scripts will be converted to MAP-REDUCE jobs anyway
+
+2.What are the advantages of pig over MapReduce?
+A. Development easeness
+   Less effort
+
+3.What is pig engine and what is its importance?
+A. Pig engine consists of Parser,Optimizer,Compiler and Execution engine
+   All the above components are responsible for converting PIG scriprs into DAG and then into MAP-REDUCE jobs
+
+
+4.What are the modes of Pig execution?
+A. Local mode
+   Map-Reduce mode
+   tez_local
+   tez mode
+
+5.What is grunt shell in pig?
+A. It is a runner of the Pig commands 
+   We can even execute normal shell commands by suffixing sh
+
+6.What are the features of Pig Latin language?
+A. Many built-in functions 
+   scripting 
+
+7.Is Pig Lating commands case sensitive?
+A. No
+   Only functions and relations are case sensitive
+
+8.What is a data flow language?
+A. In Pig, Data will not be loaded until it encounters LOAD or STORE functions
+   Then Pig transforms the Data by executing the commands we provided
+   In this whole process, Data transformation is done, i.e. DATA FLOW LANGUAGE
+
+
+
